@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.nav-bg-color{
+    background-color: #27032b!important;
+}
+.home-img{
+    background-image: url(../images/home_cover_image.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:95vh;
+    z-index: -1;
+}
+.footer{
+    height:12vh;
+    background-color: #27032b;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    margin-top: 12rem;
+    /* height:20vh; */
+}
+
