@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React,{useState,useEffect } from "react";
 import Dashboard from "./Dashboard";
 import axios from "axios";
 
@@ -26,7 +26,7 @@ const ViewBidders = () => {
   console.log(posts);
 
   return (
-    <>
+    <div>
     <Dashboard/>
     
     <div>
@@ -54,7 +54,7 @@ const ViewBidders = () => {
         </table>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 export default ViewBidders;

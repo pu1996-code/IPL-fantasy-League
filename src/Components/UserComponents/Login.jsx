@@ -11,9 +11,9 @@ export default function Login() {
   const [error, setError] = useState(true);
   const [auth, setAuth] = useState(true);
 
-  useEffect(() => {
-    localStorage.getItem("auth") === "true" ? navigate("/matches") : <></>;
-  }, []);
+  // useEffect(() => {
+  // }, []);
+  // localStorage.getItem("auth") === "true" ? navigate("/matches") : <></>;
 
   const sendLoginDetails = async () => {
     const response = await axios({

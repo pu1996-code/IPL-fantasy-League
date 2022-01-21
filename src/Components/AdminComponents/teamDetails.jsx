@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import Dashboard from "./Dashboard";
-
+import React from "react";
 const TeamDetails = () => {
   return (
     <>
